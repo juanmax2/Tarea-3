@@ -2,11 +2,135 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/style.css" rel="stylesheet">
-    <title>Title</title>
+    <title>Tarea-3</title>
   </head>
+
   <body>
+
+    <header class="md:grid md:grid-cols-2 md:mb-20 xl:pl-[33%] xl:bg-gradient-to-r xl:from-black xl:from-0% xl:via-black xl:via-50% xl:to-white xl:to-50%">
+      <img class="size-cover md:z-0 " src="./assets/tablet.png" alt="header image">
+      <section class="mx-5 md:z-10 md:relative md:top-20 md:right-17 ">
+        <h1 class="font-extrabold text-7xl py-10 pr-6 font-[Big_Shoulders]">
+          MODERN ART GALLERY
+        </h1>
+
+        <p class="font-[Outfit] font-light text-[#444444] mb-10 text-lg">
+          The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will these pieces inspire you? Visit us and find out.
+        </p>
+
+        <div class="flex align-center w-[60%] mb-10">
+          <a class="inline-block bg-black text-white p-3" href="#">OUR LOCATION </a>
+          <img class="p-3 bg-[#D5966C]" src="./assets/arrow.svg" alt="">
+        </div>
+
+      </section>
+
+    </header>
+
+    <main>
+
+      <section class="mx-5 md:grid md:grid-cols-6 md:grid-row-3 md:gap-4 md:mb-2 xl:mx-60 xl:my-60">
+        <img class="mb-5 md:mb-0 md:col-start-3 md:col-span-4 " src="./assets/second-image.png" alt="Gallery">
+        
+        <div class="md:col-start-1 md:col-span-2 md:row-start-1 md:row-span-1">
+          <h2 class="font-extrabold text-6xl pb-5 pr-3 font-[Big_Shoulders]">
+            YOUR DAY AT THE GALLERY
+          </h2>
+
+          <p class="font-[Outfit] font-light text-[#444444] mb-10 text-lg">
+            Wander through our distinct collections and find new insights about our artists. Dive into the details of their creative process.
+          </p>          
+        </div>
+
+        <img class="mb-5 md:mb-0 md:col-start-1 md:col-span-4 md:row-start-2 md:row-span-2 xl:h-[90%]" src="./assets/image-3.jpg" alt="Gallery">
+
+        <img class="mb-5 md:mb-0 md:col-start-5 md:col-span-2 md:row-start-2 md:row-span-1 md:h-74 xl:h-80" src="./assets/image-4.png" alt="Gallery">
+
+        <div class="bg-black py-10 px-5 mb-30 md:col-span-2">
+
+          <h2 class="font-extrabold text-6xl pb-5 pr-3 font-[Big_Shoulders] text-white md:text-4xl">
+            COME & BE INSPIRED
+          </h2>
+          <p class="font-[Outfit] font-light text-white mb-10 text-lg">
+            We're excited to welcome you to our gallery and see how our collections influence you.
+          </p>  
+
+        </div>
+
+      </section>
+    
+      <div class="bg-black py-10 px-5 mb-10 md:flex md:gap-5" >
+        <h4 class="font-bold text-1xl pb-5 pr-16 font-[Big_Shoulders] text-white w-[40%] text-base/4 md:w-[29%] md:pl-18 md:text-base/4 xl:text-2xl xl:pl-30 xl:pr-32">
+          MODERN ART GALLERY
+        </h4>
+
+        <p class="font-[Outfit] font-light text-white mb-10 text-sm md:w-[40%] md:mr-20 xl:text-lg">
+          The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+
+        <div class="flex gap-6">
+          <a href="#"><img src="./assets/facebook.svg" alt="Facebook Icon"></a>
+          <a href="#"><img src="./assets/instagram.svg" alt="Instagram Icon"></a>
+          <a href="#"><img src="./assets/twitter.svg" alt="Twitter Icon"></a>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="relative" >
+
+      <div class="flex align-center w-[60%] mb-10 absolute">
+        <img class="p-3 bg-[#D5966C]" src="./assets/left_arrow.svg" alt="">
+        <a class="inline-block bg-black text-white py-6 px-10 font-bold font-[Big_Shoulders]" href="#">BACK TO HOME</a>
+      </div>
+      <img class="md:w-[100%] xl:h-250" src="./assets/maps.png" alt="Location map">
+
+      <div class="bg-black py-15 px-5 text-white md:flex gap-5">
+        <h2 class="font-extrabold text-6xl pb-10 pr-3 font-[Big_Shoulders] text-white md:justify-center xl:mr-40">
+          OUR LOCATION
+        </h2>
+        <div class="">
+          <h4 class="text-[#D5966C] font-bold text-3xl">
+            99 KING STREET
+          </h4>
+          <div class="flex flex-col py-8 font-[Outfit] text-lg font-light" >
+            <span>Newport</span>
+            <span>RI 02840</span>
+            <span>United States of America</span>          
+          </div>
+
+
+          <p>
+            Our newly opened gallery is located near the Edward King House on 99 King Street, the Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm.
+          </p>
+
+        </div>
+
+      </div>
+      
+      <div class="bg-[#D5966C] py-10 px-5 md:flex"> 
+        <h4 class="font-bold text-1xl pb-5 pr-16 font-[Big_Shoulders] text-black w-[40%] text-base/4 md:text-base/4 md:w-[25%] md:pr-12 md:pl-15 xl:text-2xl xl:pl-20 xl:pr-30" >
+          MODERN ART GALLERY
+        </h4>
+
+        <p class="font-[Outfit] font-light text-black mb-10 text-sm md:w-[55%] md:ml-0 md:mr-10 xl:mr-30 xl:text-lg xl:w-[50%]">
+          The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+        <div class="flex gap-6">
+          <a href="#"><img src="./assets/facebook_black.svg" alt="Facebook Icon"></a>
+          <a href="#"><img src="./assets/insta_black.svg" alt="Instagram Icon"></a>
+          <a href="#"><img src="./assets/twitter_black.svg" alt="Twitter Icon"></a>
+        </div>        
+      </div>
+
+    </footer>
+
   </body>
 </html>
